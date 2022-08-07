@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #2b2922;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 4rem;
+}
+
+.logo{
+    width: 110px;
+}
+
+.list{
+    display: flex;
+    margin-right: 30px;
+}
+
+.list-item{
+    margin-top: 13px;
+    color: grey;
+    font-size: 16px;
+    list-style: none;
+    margin-right: 55px;
+    cursor: pointer;
+    
+}
+
+.list-item:first-child{
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.list-item-btn{
+    margin-top: 3px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    border: 1px solid #a08f36;
+    border-radius: 8px;
+    color: #a08f36;
+    background-color: transparent;
+    padding: 12px 30px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+.hero-left{
+    font-size: 35px;
+    /* line-height: 70px; */
+    text-transform: capitalize;
+    margin-left: 64px;
+}
+
+.hero-right{
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 100px;
+}
+
+.banner{
+    height: 350px;
+}
+
+.banner-container{
+    position: absolute;
+    min-width: 100%;
+    margin-top: 15px;
+}
+
+.banner-container img{
+    width: 100%;
+    height: 335px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.arrow-btns{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.arrow-btns div{
+    background-color: #39372d;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-btns div:first-child{
+    background-color: #39372d;
+}
+
+.arrow-btns div:last-child{
+    background-color: #a08f36;
+} 
+
+.arrow-btns div span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-btns div:first-child span{
+    
+    color: #a08f36;
+    border: 2px solid #a08f36;
+}
+
+
+.arrow-btns div:last-child span{
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
